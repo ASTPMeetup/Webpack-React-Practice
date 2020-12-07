@@ -1,23 +1,26 @@
 {
   "name": "webpack-react-starter",
   "version": "1.0.0",
-  "description": "Lets' go step by step and practice how to use webpack to create a react app.",
-  "main": "index.js",
+  "description": "Lets' practice how to use webpack to create a react app.",
+  "private": true,
   "scripts": {
-   
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AustinCodingAcademy/webpack-react-starter.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AustinCodingAcademy/webpack-react-starter/issues"
-  },
-  "homepage": "https://github.com/AustinCodingAcademy/webpack-react-starter#readme",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
